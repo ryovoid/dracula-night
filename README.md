@@ -44,7 +44,7 @@ Install via your preferred package manager:
 ```lua
 -- lazy.nvim
 {
-  "satya77-lang/dracula-night",
+  "ryovoid/dracula-night",
   lazy = false,
   priority = 1000,
   config = function()
@@ -55,12 +55,12 @@ Install via your preferred package manager:
 
 ```lua
 -- packer.nvim
-use "satya77-lang/dracula-night"
+use "ryovoid/dracula-night"
 ```
 
 ```vim
 " vim-plug
-Plug 'satya77-lang/dracula-night'
+Plug 'ryovoid/dracula-night'
 ```
 
 ## 🚀 Usage
@@ -91,7 +91,7 @@ If you are using [LazyVim](https://github.com/LazyVim/LazyVim), you can add this
 
 ```lua
 return {
-  { "satya77-lang/dracula-night", lazy = false, priority = 1000 },
+  { "ryovoid/dracula-night", lazy = false, priority = 1000 },
 
   {
     "LazyVim/LazyVim",
